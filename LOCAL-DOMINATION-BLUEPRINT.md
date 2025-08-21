@@ -90,32 +90,38 @@ Claude will:
 
 ### Competitor Analysis
 
-Open 10 competitor websites and tell Claude:
+Ask Claude 
 ```
-"Here are my competitor websites [paste URLs].
+Who ranks #1-10 for my main service
+List website address 
+Their Google review counts
+Their website weaknesses
+Their pricing (if shown)
+What customers complain about
+Add these to a .md file
+```
+
+Then, tell Claude:
+```
+"Look at my competitor websites.
 Analyze them and tell me:
 1. What they're doing wrong
 2. What keywords they're missing
 3. How we can beat them"
 ```
 
-Document:
-- [ ] Who ranks #1-10 for your main service
-- [ ] Their Google review counts
-- [ ] Their website weaknesses
-- [ ] Their pricing (if shown)
-- [ ] What customers complain about
-
 ### Keyword Research
 
 Tell Claude:
 ```
-"Generate 100 keywords for [service] in [city] including:
+"Use DataforSEO MCP to generate 100 keywords for [service] in [city] including:
 - Emergency searches
 - Problem-based searches
 - Service-specific searches
 - Location combinations
-- Commercial intent keywords"
+- Commercial intent keywords
+
+Include monthly search volume"
 ```
 
 Then:
